@@ -1,9 +1,2 @@
-#añadimo un valor a la variable n para el rango
-n = 5
-#funcion for
-#establecemos el rango
-for i in range(n+1):
-    for x in range(i + 1):
-        print(i, end="")
-#ara finalizar el infalabl print
-    print()
+for i in range(6):
+    print(str(i) * i)
