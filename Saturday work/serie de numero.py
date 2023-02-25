@@ -3,7 +3,7 @@ n = 5
 #funcion for
 #establecemos el rango
 for i in range(n+1):
-    for x in range(1, i + 1):
+    for x in range(i + 1):
         print(i, end="")
 #ara finalizar el infalabl print
     print()
